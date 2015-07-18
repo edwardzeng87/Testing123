@@ -19,4 +19,11 @@ public class CalculatorTest {
         int finalSum = calculator.subtract(5, 2);
         assertEquals(3, finalSum);
     }
+
+    @Test
+    public void correctFinalSumAfterDividingTwoNumbers(){
+        Calculator calculator = new Calculator();
+        int finalSum = calculator.divide(2, 2);
+        assertEquals(1, finalSum);
+    }
 }
